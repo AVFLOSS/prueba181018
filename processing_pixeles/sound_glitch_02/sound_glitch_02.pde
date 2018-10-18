@@ -3,7 +3,7 @@ PImage img;
 
 
 void setup() {
-  size(640, 480);
+  size(720, 480);
   img = loadImage("pixel_test.jpg");
   colorMode (HSB, 360, 100, 100);
   background(0);
